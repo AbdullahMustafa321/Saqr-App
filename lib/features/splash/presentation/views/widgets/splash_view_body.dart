@@ -48,7 +48,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
 
   void navigate() {
     Future.delayed(const Duration(seconds: 3), () {
-      GoRouter.of(context).push(AppRouter.kOnBoarding);
+      GoRouter.of(context).push(AppRouter.kOnBoardingView);
     });
   }
 }
