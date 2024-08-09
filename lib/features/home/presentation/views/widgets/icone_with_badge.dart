@@ -9,21 +9,24 @@ class IconeWithBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      clipBehavior: Clip.none,
-      children: [
-        Icon(Icons.bedroom_parent_rounded,size: 38.sp,),
-        Positioned(
-          left: 25.w,
-          bottom: 25.h,
-          child: CircleAvatar(
-            radius: 10.r,
-            backgroundColor: Colors.green,
-            child: Text('5'),
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 8.w),
+      child: Stack(
+        clipBehavior: Clip.none,
+        children: [
+          Icon(Icons.bedroom_parent_rounded,size: 38.sp,),
+          Positioned(
+            left: 25.w,
+            bottom: 32.h,
+            child: CircleAvatar(
+              radius: 10.r,
+              backgroundColor: Colors.green,
+              child: Text('5'),
+            ),
           ),
-        ),
 
-      ],
+        ],
+      ),
     );
   }
 }

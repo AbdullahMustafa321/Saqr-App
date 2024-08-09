@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'custom_carousel_slider.dart';
+import 'custom_divider.dart';
 import 'icone_with_badge.dart';
 
 class ChaletDetailsViewBody extends StatelessWidget {
@@ -14,17 +15,18 @@ class ChaletDetailsViewBody extends StatelessWidget {
     return ListView(
       children: [
         CustomCarouselSlider(),
-        Divider(
-          thickness: 0.5,
-          color: Colors.grey,
-          indent: 30,
-          endIndent: 30,
-        ),
+        CustomDivider(),
         SizedBox(
-          height: 40.h,
+          height: 50.h,
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: [
+              IconeWithBadge(),
+              IconeWithBadge(),
+              IconeWithBadge(),
+              IconeWithBadge(),
+              IconeWithBadge(),
+              IconeWithBadge(),
               IconeWithBadge(),
             ],
           ),
@@ -33,4 +35,5 @@ class ChaletDetailsViewBody extends StatelessWidget {
     );
   }
 }
+
 
