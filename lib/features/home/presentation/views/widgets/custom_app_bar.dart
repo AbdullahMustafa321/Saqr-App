@@ -25,10 +25,9 @@ class CustomAppBar extends StatelessWidget implements PreferredSize {
   }
 
   @override
-  // TODO: implement child
-  Widget get child => throw UnimplementedError();
+  Size get preferredSize => Size.fromHeight(kToolbarHeight);
 
   @override
-  // TODO: implement preferredSize
-  Size get preferredSize => throw UnimplementedError();
+  // TODO: implement child
+  Widget get child => throw UnimplementedError();
 }

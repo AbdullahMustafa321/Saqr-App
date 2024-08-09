@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:saqr_app/features/home/presentation/views/widgets/chalet_card.dart';
 import 'chalet_card_list_view.dart';
 import 'village_card_list_view.dart';
 

@@ -9,8 +9,8 @@ import '../../features/splash/presentation/views/splash_view.dart';
 abstract class AppRouter {
   static String kHomeView = '/HomeView';
   static String kOnBoardingView = '/OnBoarding';
-  static String kChaletDetailsView = '/OnBoarding';
-  static String kVillageView = '/OnBoarding';
+  static String kChaletDetailsView = '/ChaletDetailsView';
+  static String kVillageView = '/VillageView';
   static final router = GoRouter(routes: [
     GoRoute(
       path: '/',

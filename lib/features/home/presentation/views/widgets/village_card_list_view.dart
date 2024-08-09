@@ -11,7 +11,7 @@ class VillageCardListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 150.h,
+      height: 130.h,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: 3,
