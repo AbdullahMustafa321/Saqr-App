@@ -17,7 +17,7 @@ class IconeWithBadge extends StatelessWidget {
           Icon(Icons.bedroom_parent_rounded,size: 38.sp,),
           Positioned(
             left: 25.w,
-            bottom: 32.h,
+            bottom: 20.h,
             child: CircleAvatar(
               radius: 10.r,
               backgroundColor: Colors.green,
